@@ -1,0 +1,9 @@
+In the gaming VM I disabled windows updates as they were silently 
+installing when I was gaming causing performance to dip.
+Every so often I need to follow these steps:
+
+1) go to services.msc
+2) enable windows update service
+3) start windows update service
+4) check for updates, install
+5) disable windows update service again
