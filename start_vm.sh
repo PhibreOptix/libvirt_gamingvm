@@ -4,8 +4,8 @@
 # monitor, then re-enable it after it shutsdown
 # lets us use two monitors in linux and the vm easily
 
-left_monitor="HDMI2"
-right_monitor="HDMI1"
+left_monitor="HDMI1"
+right_monitor="HDMI2"
 
 clear
 
@@ -67,4 +67,5 @@ done
 
 killall synergy
 killall synergyc
+killall synergys
 curl 127.0.0.1:8080/exit_http_server
