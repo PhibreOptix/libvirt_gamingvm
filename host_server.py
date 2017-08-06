@@ -19,7 +19,7 @@ server_status_file = "vm_status.txt"
 # Let the host know when the VM is online, will be used to check on phone apps etc 
 def write_out_server_status(status):
     with open(server_status_file, "w") as outfile:
-        outfile.write("Online")
+        outfile.write(status)
 
 # Receives HTTP messages, GET is handled in do_GET
 class server(BaseHTTPRequestHandler):
